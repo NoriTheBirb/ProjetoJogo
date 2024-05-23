@@ -17,6 +17,8 @@ function playGame(userChoice) {
         result.textContent = `Você perdeu! ${computerChoice} vence ${userChoice}.`;
         result.style.color = 'red';
     }
+
+    document.getElementById("CompChoice").innerHTML = computerChoice + "!"
 }
 
 function resetGame() {
